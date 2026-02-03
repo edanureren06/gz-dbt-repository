@@ -1,3 +1,4 @@
+{{ config(materialized='view') }}
 select
   s.products_id,
   s.date_date,
