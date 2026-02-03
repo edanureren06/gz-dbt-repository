@@ -1,3 +1,4 @@
+{{ config(materialized='view') }}
 SELECT
 	o.orders_id
 	,o.date_date
