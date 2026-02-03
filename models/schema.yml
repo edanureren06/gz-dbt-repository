@@ -2,6 +2,7 @@ version: 2
 
 sources:
   - name: raw
+    database: flash-audio-486218-h6
     schema: gz_raw_data
     tables:
       - name: product
@@ -12,3 +13,4 @@ sources:
 
       - name: ship
         identifier: raw_gz_ship
+
